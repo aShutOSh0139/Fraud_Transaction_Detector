@@ -31,11 +31,11 @@ pip install --upgrade cupy-cuda12x
 - The Undersampled Dataset link is [HERE](https://drive.google.com/file/d/1BDRPic7J5t7jCSrX8s9HN-gdNxS16CPv/view?usp=sharing)
   
 ## Repository Structure
-### `Data Dictionary.txt`: Contains info. of different features of dataset.
-### `FraudTransacDetection.ipynb`: Well organized and Documented Notebook of complete workflow.
-### `Task Details.pdf`: Company's guidelines on task.
-### `gs_randomF_1.pkl`: Fine-tuned saved model using GridSearchCV.
-### `seed_randomF_1_new.joblib`:***Final Fine-tuned saved model*** using Custom tuning by random seed generation (99% accuracy , 89% recall)
+- `Data Dictionary.txt`: Contains info. of different features of dataset.
+- `FraudTransacDetection.ipynb`: Well organized and Documented Notebook of complete workflow.
+- `Task Details.pdf`: Company's guidelines on task.
+- `gs_randomF_1.pkl`: Fine-tuned saved model using GridSearchCV.
+- `seed_randomF_1_new.joblib`:***Final Fine-tuned saved model*** using Custom tuning by random seed generation (99% accuracy , 89% recall)
 
 ## Results
 Summarized key findings and model performance are here:
