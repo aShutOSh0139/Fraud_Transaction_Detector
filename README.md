@@ -20,7 +20,8 @@ pip install --extra-index-url=https://pypi.nvidia.com cudf-cu11 cuml-cu11
 pip uninstall cupy-cuda11x cupy-cuda12x
 
 # Install the upgraded version of CuPy
-pip install --upgrade cupy-cuda12x ```
+pip install --upgrade cupy-cuda12x
+```
 
 - **Evaluation Metrics**: Provides insights into model performance using metrics such as accuracy, precision, recall, and F1 score.
 
