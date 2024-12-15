@@ -11,6 +11,17 @@ This project focuses on detecting fraudulent transactions using machine learning
 - **Model Building**: Implements machine learning algorithm to classify transactions as fraudulent or non-fraudulent- GPU accelerated RandomForestClassifier of CuML library is used to be 
                       trained on large dataset.
 - **Model Fine-Tuning**:The Classifier is Fine tuned usng GridSearchCV and Custom tuning techniques for better performance.
+**Note:**CuPy and CuML are not already installed on google colaboratory runtimes. Here is the way to install it.
+  ```bash
+# Install NVIDIA Rapids libraries
+pip install --extra-index-url=https://pypi.nvidia.com cudf-cu11 cuml-cu11
+
+# Uninstall conflicting versions of CuPy
+pip uninstall cupy-cuda11x cupy-cuda12x
+
+# Install the upgraded version of CuPy
+pip install --upgrade cupy-cuda12x ```
+
 - **Evaluation Metrics**: Provides insights into model performance using metrics such as accuracy, precision, recall, and F1 score.
 
 ## Dataset
@@ -26,14 +37,11 @@ This project focuses on detecting fraudulent transactions using machine learning
 ### `seed_randomF_1_new.joblib`:***Final Fine-tuned saved model*** using Custom tuning by random seed generation (99% accuracy , 89% recall)
 
 ## Results
-Summarize key findings and model performance here. For example:
+Summarized key findings and model performance are here:
 - **Accuracy**: 99.78%
 - **Precision**: 97.82%
 - **Recall**: 88.86%
 - **Recall**: 93.12%
-
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any changes.
 
 ## Author
 Ashutosh Anand
