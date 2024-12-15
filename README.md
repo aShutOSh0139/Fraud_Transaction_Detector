@@ -42,6 +42,3 @@ Summarized key findings and model performance are here:
 - **Precision**: 97.82%
 - **Recall**: 88.86%
 - **Recall**: 93.12%
-
-## Author
-Ashutosh Anand
