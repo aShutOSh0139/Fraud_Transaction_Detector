@@ -12,7 +12,7 @@ This project focuses on detecting fraudulent transactions using machine learning
                       trained on large dataset.
 - **Model Fine-Tuning**:The Classifier is Fine tuned usng GridSearchCV and Custom tuning techniques for better performance.
 **Note:**CuPy and CuML are not already installed on google colaboratory runtimes. Here is the way to install it.
-  ```bash
+```
 # Install NVIDIA Rapids libraries
 pip install --extra-index-url=https://pypi.nvidia.com cudf-cu11 cuml-cu11
 
