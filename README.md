@@ -10,8 +10,7 @@ This project focuses on detecting fraudulent transactions using machine learning
 - **Data Preprocessing**: Handles missing values, encodes categorical data,scales features and undersampling of unbalanced class.
 - **Model Building**: Implements machine learning algorithm to classify transactions as fraudulent or non-fraudulent- GPU accelerated RandomForestClassifier of CuML library is used to be 
                       trained on large dataset.
-- **Model Fine-Tuning**:The Classifier is Fine tuned usng GridSearchCV and Custom tuning techniques for better performance.
-**Note:**CuPy and CuML are not already installed on google colaboratory runtimes. Here is the way to install it.
+**Note:** CuPy and CuML are not already installed on google colaboratory runtimes. Here is the way to install it.
 ```
 # Install NVIDIA Rapids libraries
 pip install --extra-index-url=https://pypi.nvidia.com cudf-cu11 cuml-cu11
@@ -22,7 +21,7 @@ pip uninstall cupy-cuda11x cupy-cuda12x
 # Install the upgraded version of CuPy
 pip install --upgrade cupy-cuda12x
 ```
-
+- **Model Fine-Tuning**:The Classifier is Fine tuned usng GridSearchCV and Custom tuning techniques for better performance.
 - **Evaluation Metrics**: Provides insights into model performance using metrics such as accuracy, precision, recall, and F1 score.
 
 ## Dataset
